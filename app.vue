@@ -1,3 +1,7 @@
+<script setup lang="ts">
+  import '~/assets/css/app.css'
+</script>
+
 <template>
   <main>
     <div class="menu">
@@ -20,11 +24,13 @@
 </template>
 
 <style scoped>
-  main {
+  /* @import url('~/assets/css/app.css') */
+
+  /* main {
     display: flex;
   }
   .menu {
-    width: 200px;
+    width: 400px;
     padding: 20px;
   }
   ul li {
@@ -36,7 +42,7 @@
     flex: 1;
     padding: 20px;
     border: 1px solid #333;
-    margin-top: 40px;
+    margin-top: 36px;
     border-radius: 5px;
     margin-right: 50px;
   }
@@ -60,5 +66,5 @@
   .router-link-active {
     background-color: #333;
     color: #fff;
-  }
+  } */
 </style>
